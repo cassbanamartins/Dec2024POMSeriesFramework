@@ -1,7 +1,6 @@
 package com.qa.opencart.tests;
 
 import com.qa.opencart.base.BaseTest;
-import com.qa.opencart.factory.DriverFactory;
 import com.qa.opencart.utils.CSVUtil;
 import com.qa.opencart.utils.ExcelUtil;
 import org.apache.logging.log4j.LogManager;
