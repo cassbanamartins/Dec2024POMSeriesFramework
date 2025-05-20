@@ -71,10 +71,10 @@ public class DriverFactory {
                 break;
             case "firefox":
                 if (Boolean.parseBoolean(prop.getProperty("remote"))) {
-                    // Run on selenium grid server/aws/machine
+                    // run on remote/selenium grid server/aws/machine
                     initRemoteDriver("firefox");
                 } else {
-                    //Run it on local machine
+                    // run it on local:
                     tlDriver.set(new FirefoxDriver(optionsManager.getFirefoxOptions()));
                 }
                 break;

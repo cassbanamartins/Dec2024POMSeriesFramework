@@ -13,6 +13,7 @@ import org.testng.ITestResult;
 import org.testng.annotations.*;
 
 import com.qa.opencart.factory.DriverFactory;
+import software.amazon.awssdk.services.s3.endpoints.internal.Value;
 
 import java.util.Properties;
 
@@ -31,15 +32,18 @@ public class BaseTest {
 
     public static final Logger log = LogManager.getLogger(BaseTest.class);
 
-    @Parameters({"browser"})
+    @Description("init the driver and properties")
+    @Parameters({"browser", "browserversion", "testname"})
     @BeforeTest
-    public void setup(String browserName) {
+    public void setup(String browserName, String browserVersion, String testName) {
         df = new DriverFactory();
         prop = df.initProp();
         //driver = df.initDriver("chrome");
         //browserName is passed from the .xml file
         if (browserName != null) {
             prop.setProperty("browser", browserName);
+            prop.setProperty("browserversion", browserVersion);
+            prop.setProperty("testname", testName);
         }
         // ChainTestListener.log("Properties used: " + prop);
 
