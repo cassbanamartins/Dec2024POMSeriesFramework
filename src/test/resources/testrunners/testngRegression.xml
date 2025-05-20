@@ -17,19 +17,19 @@
         </classes>
     </test>
 
-<!--    <test name="Login Page Test_firefox">-->
-<!--        <parameter name="browser" value="firefox"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.opencart.tests.LoginPageTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Login Page Test_firefox">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="com.qa.opencart.tests.LoginPageTest"/>
+        </classes>
+    </test>
 
-<!--    <test name="Login Page Test_edge">-->
-<!--        <parameter name="browser" value="edge"/>-->
-<!--        <classes>-->
-<!--            <class name="com.qa.opencart.tests.LoginPageTest"/>-->
-<!--        </classes>-->
-<!--    </test>-->
+    <test name="Login Page Test_edge">
+        <parameter name="browser" value="edge"/>
+        <classes>
+            <class name="com.qa.opencart.tests.LoginPageTest"/>
+        </classes>
+    </test>
 
 <!--    <test name="Accounts Page Test_chrome">-->
 <!--        <parameter name="browser" value="chrome"/>-->
@@ -38,12 +38,12 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="Accounts Page Test_firefox">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="com.qa.opencart.tests.AccountsPageTest"/>
-        </classes>
-    </test>
+<!--    <test name="Accounts Page Test_firefox">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.opencart.tests.AccountsPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--    <test name="Accounts Page Test_edge">-->
 <!--        <parameter name="browser" value="edge"/>-->
@@ -52,12 +52,12 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="Search Test_chrome">
-        <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.qa.opencart.tests.SearchTest"/>
-        </classes>
-    </test>
+<!--    <test name="Search Test_chrome">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.opencart.tests.SearchTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--    <test name="Search Test_firefox">-->
 <!--        <parameter name="browser" value="firefox"/>-->
@@ -80,12 +80,12 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="ProductInfo Page Test_firefox">
-        <parameter name="browser" value="firefox"/>
-        <classes>
-            <class name="com.qa.opencart.tests.ProductInfoPageTest"/>
-        </classes>
-    </test>
+<!--    <test name="ProductInfo Page Test_firefox">-->
+<!--        <parameter name="browser" value="firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.opencart.tests.ProductInfoPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--    <test name="ProductInfo Page Test_edge">-->
 <!--        <parameter name="browser" value="edge"/>-->
@@ -94,12 +94,12 @@
 <!--        </classes>-->
 <!--    </test>-->
 
-    <test name="Registration Page Test_chrome">
-        <parameter name="browser" value="chrome"/>
-        <classes>
-            <class name="com.qa.opencart.tests.RegistrationPageTest"/>
-        </classes>
-    </test>
+<!--    <test name="Registration Page Test_chrome">-->
+<!--        <parameter name="browser" value="chrome"/>-->
+<!--        <classes>-->
+<!--            <class name="com.qa.opencart.tests.RegistrationPageTest"/>-->
+<!--        </classes>-->
+<!--    </test>-->
 
 <!--    <test name="Registration Page Test_firefox">-->
 <!--        <parameter name="browser" value="firefox"/>-->
